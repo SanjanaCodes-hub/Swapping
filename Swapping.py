@@ -8,7 +8,9 @@ print("a =", a)
 print("b =", b)
 
 # Swap the numbers
-a, b = b, a
+temp = a
+a = b
+b = temp
 
 print("After swapping:")
 print("a =", a)
